@@ -1,2 +1,8 @@
 # Prog-2
-Practices of the curse "Prog 2" of the Autonomous University of Madrid (First year)
+This repository includes de 4 practices done during the curse of Prog-2 in UAM during the first year of the double degree in 
+computer engineering and mathematics.
+The practices deal with different structures that are possible in the computational world, such as queues, stacks, trees or lists.
+
+# More information:
+In each folder is included the pdf with the problem to be solved as well as all the files (inluding makefile) that are necessary to run the program.
+Even if some of the files are the same in several folders they might be small changes so please dont remove or move them to other folders.
