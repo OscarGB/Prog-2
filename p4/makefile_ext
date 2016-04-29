@@ -1,0 +1,23 @@
+CFLAGS = -g -Wall -pedantic -ansi
+
+p4_e2: p4_e2.o tree.o eletree-point.o point.o elelist-int.o list.o
+	gcc $(CFLAGS) -o p4_e2 p4_e2.o tree.o eletree-point.o point.o elelist-int.o list.o
+
+p4_e2_bal: p4_e2.o tree.o eletree-point.o point.o elelist-int.o list.o
+	gcc $(CFLAGS) -o p4_e2_bal p4_e2.o tree.o eletree-point.o point.o elelist-int.o list.o
+
+p4_e4: p4_e2.o dtree.o eletree-point.o point.o elelist-point.o list.o
+	gcc $(CFLAGS) -o p4_e4 p4_e2.o dtree.o eletree-point.o point.o elelist-point.o list.o
+
+p4_e4_bal: p4_e2.o elelist-int.o list.o dtree.o eletree-point.o point.o elelist-point.o 
+	gcc $(CFLAGS) -o p4_e4_bal p4_e2.o dtree.o eletree-point.o point.o elelist-point.o list.o
+
+p4_e2.o: p4_e2.c
+	gcc $(CFLAGS) -c p4_e2.c
+
+eletree-point.o: eletree-point.c eletree.h
+	gcc $(CFLAGS) -c eletree-point.c
+
+point.o: point.c point.h
+	gcc $(CFLAGS) -c point.c
+	
