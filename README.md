@@ -1,6 +1,6 @@
 # Prog-2
-This repository includes de 4 practices done during the curse of Prog-2 in UAM during the first year of the double degree in 
-computer engineering and mathematics.
+This repository includes the 4 practices done during the curse of Prog-2 in the first year of the double degree in 
+computer engineering and mathematics realized in UAM (Madrid, Spain)
 The practices deal with different structures that are possible in the computational world, such as queues, stacks, trees or lists.
 
 # More information:
