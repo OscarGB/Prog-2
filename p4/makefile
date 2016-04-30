@@ -45,4 +45,4 @@ list.o: list.c list.h elelist.h
 	gcc $(CFALGS) -c list.c
 
 clean:
-	rm -f p4_e1  *.o p4_e2 p4_e2_bal p4_e4 p4_e4_bal p4_e5 
+	rm -f p4_e1  *.o p4_e2 p4_e2_bal p4_e3 p4_e4 p4_e4_bal p4_e5 

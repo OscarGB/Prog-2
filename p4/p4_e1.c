@@ -145,6 +145,7 @@ int main (int argc, char *argv[]){
 
 	printf ("Introduzca un número: ");
 	scanf ("%d", &buscar);
+	printf ("Número introducido: %d\n", buscar);
 	pele = eletree_ini(); /*Inicializamos un EleTree*/
 	if (!pele){
 		fclose (f);

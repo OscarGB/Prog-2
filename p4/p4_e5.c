@@ -82,7 +82,7 @@ int main (int argc, char *argv[]){
 		tree_free(tree);
 		return -1;
 	}
-	printf ("Introduce una cadena para buscar en el árbol (siguiendo el mismo formato que fen el fichero de entrada): ");
+	printf ("Introduce una cadena para buscar en el árbol (siguiendo el mismo formato que en el fichero de entrada): ");
 	scanf ("%s", buscar);
 	pele = eletree_ini(); /*Inicializamos un EleTree*/
 	if (!pele){
